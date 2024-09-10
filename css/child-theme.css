@@ -20667,6 +20667,7 @@ readers do not read off random characters that represent icons */
   --col-cream: #fdfbfa;
   --col-dark-cream: #e8ca91;
   --col-green: #4c6048;
+  --col-green-400: #76A58B;
   --col-yellow-400: #FFE41F;
   --col-blue-400: #0073CC;
   --col-grey-400: #F5F5F5;
@@ -20895,7 +20896,7 @@ h1 > span, .h1 > span {
   border-color: var(--col-green);
 }
 .btn-green:hover {
-  background-color: var(--col-green-900);
+  background-color: var(--col-green-400);
   color: var(--col-black);
 }
 
@@ -22435,7 +22436,7 @@ main ul.wp-block-list li {
 main ul li::marker,
 main ul:not([class]) li::marker,
 main ul.wp-block-list li::marker {
-  color: var(--col-blue-400);
+  color: var(--col-green);
   font-size: var(--fs-500);
 }
 main ul.pagination > li.page-item {

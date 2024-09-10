@@ -93,7 +93,7 @@ main {
             list-style-type: square;
             margin-bottom: 0 !important;
             &::marker {
-                color: var(--col-blue-400);
+                color: var(--col-green);
                 font-size: var(--fs-500);
             }
         }

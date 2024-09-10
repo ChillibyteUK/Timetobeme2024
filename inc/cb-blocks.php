@@ -4,6 +4,33 @@ function acf_blocks()
 {
     if (function_exists('acf_register_block_type')) {
         acf_register_block_type(array(
+            'name'              => 'cb_prices',
+            'title'             => __('CB Price List'),
+            'category'          => 'layout',
+            'icon'              => 'cover-image',
+            'render_template'   => 'page-templates/blocks/cb_prices.php',
+            'mode'  => 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'              => 'cb_icons',
+            'title'             => __('CB Icon List'),
+            'category'          => 'layout',
+            'icon'              => 'cover-image',
+            'render_template'   => 'page-templates/blocks/cb_icons.php',
+            'mode'  => 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'              => 'cb_full_text',
+            'title'             => __('CB Full Width Text'),
+            'category'          => 'layout',
+            'icon'              => 'cover-image',
+            'render_template'   => 'page-templates/blocks/cb_full_text.php',
+            'mode'  => 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
             'name'              => 'cb_full_hero',
             'title'             => __('CB Full Hero'),
             'category'          => 'layout',
