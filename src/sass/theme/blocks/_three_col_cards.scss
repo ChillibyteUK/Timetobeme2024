@@ -1,0 +1,38 @@
+.three_col_cards,
+.three_col_cards2 {
+    h3 {
+        color: var(--col-blue-400);
+        font-size: var(--fs-600);
+    }
+    &__bg {
+        padding-top: calc(50px + 1rem);
+        padding-bottom: 3rem;
+        background-color: var(--col-grey-400);
+        position: relative;
+    }
+
+    &__content {
+        grid-area: content;
+        padding: 1rem;
+    }
+}
+
+.three_col_cards {
+    &__grid {
+        gap: 4rem;
+    }
+    &__card {
+        background-position: center;
+        background-size: cover;
+        background-color: var(--col-white);
+        aspect-ratio: 1/1;
+    }
+    &__title {
+        grid-area: title;
+        padding: 1rem 1rem 0 1rem;
+        margin-bottom: 0;
+        bottom: -10px;
+        right: -10px;
+        max-width: 90%;
+    }
+}
