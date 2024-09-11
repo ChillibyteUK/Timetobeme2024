@@ -81,7 +81,7 @@ add_shortcode('social_tw_icon', function () {
     return;
 });
 
-add_shortcode('book-now', function () {
+add_shortcode('book_now', function () {
     return '<a href="https://www.phorest.com/salon/timetobeme" target="_blank" class="btn btn-green">Book Now</a>';
 });
 
