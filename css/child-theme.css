@@ -22421,6 +22421,30 @@ a.noline {
     columns: 3;
     gap: 2rem;
   }
+  .cols-lg-2 h1, .cols-lg-2 .h1,
+  .cols-lg-2 h2,
+  .cols-lg-2 .h2,
+  .cols-lg-2 h3,
+  .cols-lg-2 .h3,
+  .cols-lg-2 h4,
+  .cols-lg-2 .h4,
+  .cols-lg-2 h5,
+  .cols-lg-2 .h5 {
+    -moz-column-break-after: avoid;
+    break-after: avoid;
+  }
+  .cols-lg-3 h1, .cols-lg-3 .h1,
+  .cols-lg-3 h2,
+  .cols-lg-3 .h2,
+  .cols-lg-3 h3,
+  .cols-lg-3 .h3,
+  .cols-lg-3 h4,
+  .cols-lg-3 .h4,
+  .cols-lg-3 h5,
+  .cols-lg-3 .h5 {
+    -moz-column-break-after: avoid;
+    break-after: avoid;
+  }
 }
 main ul,
 main ul:not([class]),

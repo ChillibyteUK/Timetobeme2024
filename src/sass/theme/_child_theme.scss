@@ -78,9 +78,26 @@ a.noline {
         columns: 2;
         gap: 2rem;
     }
+
     .cols-lg-3 {
         columns: 3;
         gap: 2rem;
+    }
+
+    .cols-lg-2 h1,
+    .cols-lg-2 h2,
+    .cols-lg-2 h3,
+    .cols-lg-2 h4,
+    .cols-lg-2 h5 {
+        break-after: avoid;
+    }
+
+    .cols-lg-3 h1,
+    .cols-lg-3 h2,
+    .cols-lg-3 h3,
+    .cols-lg-3 h4,
+    .cols-lg-3 h5 {
+        break-after: avoid;
     }
 }
 
