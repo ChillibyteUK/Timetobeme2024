@@ -1,5 +1,5 @@
 <?php
-$class = $block['className'] ?? 'pb-5';
+$class = $block['className'] ?? 'py-5';
 
 $layout = get_field('layout');
 
