@@ -6,8 +6,8 @@
         while (have_rows('prices')) {
             the_row();
         ?>
-                <h2 style="break-after: avoid;"><?php echo get_sub_field('title'); ?></h2>
                 <div class="mb-5" style="break-after: column;">
+                    <h2 style="break-after: avoid;"><?php echo get_sub_field('title'); ?></h2>
                     <div class="mb-2"><?php echo get_sub_field('text'); ?></div>
                     <?php
                     if ( get_sub_field('cta') ) {
