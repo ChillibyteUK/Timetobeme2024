@@ -7,18 +7,20 @@
             the_row();
         ?>
                 <h2 style="break-after: avoid;"><?php echo get_sub_field('title'); ?></h2>
-                <div class="mb-2"><?php echo get_sub_field('text'); ?></div>
-                <?php
-                if ( get_sub_field('cta') ) {
-                ?>
-                <a href="<?php echo get_sub_field('cta'); ?>" class="btn btn-green mb-5" target="_blank">Book Now</a>
-                <?php
-                } else {
-                ?>
-                <a href="https://www.phorest.com/salon/timetobeme" class="btn btn-green mb-5" target="_blank">Book Now</a>
-                <?php
-                }
-                ?>
+                <div class="mb-5">
+                    <div class="mb-2"><?php echo get_sub_field('text'); ?></div>
+                    <?php
+                    if ( get_sub_field('cta') ) {
+                    ?>
+                    <a href="<?php echo get_sub_field('cta'); ?>" class="btn btn-green mb-5" target="_blank">Book Now</a>
+                    <?php
+                    } else {
+                    ?>
+                    <a href="https://www.phorest.com/salon/timetobeme" class="btn btn-green mb-5" target="_blank">Book Now</a>
+                    <?php
+                    }
+                    ?>
+                </div>
         <?php
         }
         ?>
