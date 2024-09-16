@@ -22429,7 +22429,8 @@ a.noline {
   .cols-lg-2 h4,
   .cols-lg-2 .h4,
   .cols-lg-2 h5,
-  .cols-lg-2 .h5 {
+  .cols-lg-2 .h5,
+  .cols-lg-2 .btn {
     -moz-column-break-after: avoid;
     break-after: avoid;
   }
@@ -22441,7 +22442,8 @@ a.noline {
   .cols-lg-3 h4,
   .cols-lg-3 .h4,
   .cols-lg-3 h5,
-  .cols-lg-3 .h5 {
+  .cols-lg-3 .h5,
+  .cols-lg-3 .btn {
     -moz-column-break-after: avoid;
     break-after: avoid;
   }

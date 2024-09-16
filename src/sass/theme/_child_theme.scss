@@ -88,7 +88,8 @@ a.noline {
     .cols-lg-2 h2,
     .cols-lg-2 h3,
     .cols-lg-2 h4,
-    .cols-lg-2 h5 {
+    .cols-lg-2 h5,
+    .cols-lg-2 .btn {
         break-after: avoid;
     }
 
@@ -96,7 +97,8 @@ a.noline {
     .cols-lg-3 h2,
     .cols-lg-3 h3,
     .cols-lg-3 h4,
-    .cols-lg-3 h5 {
+    .cols-lg-3 h5,
+    .cols-lg-3 .btn {
         break-after: avoid;
     }
 }
