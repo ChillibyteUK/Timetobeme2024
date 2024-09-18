@@ -6,7 +6,7 @@ $contentBg = get_field('background') == 'cream' ? 'bg-white' : 'bg-cream';
 ?>
 <section class="columns <?=$bg?> py-5">
     <div class="container-xl">
-        <div class="row g-4 align-items-center">
+        <div class="row g-4 align-items-start">
             <div class="col-md-6">
                 <?=get_field('content_1')?>
             </div>
