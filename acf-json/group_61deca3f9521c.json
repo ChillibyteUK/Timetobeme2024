@@ -103,6 +103,24 @@
             "append": ""
         },
         {
+            "key": "field_66eafa925432b",
+            "label": "Google Map",
+            "name": "ho_map_url",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "placeholder": ""
+        },
+        {
             "key": "field_61deca4c35cb8",
             "label": "Socials",
             "name": "socials",
@@ -310,5 +328,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1725535949
+    "modified": 1726675641
 }
