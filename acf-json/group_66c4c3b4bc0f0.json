@@ -76,7 +76,10 @@
                 "id": ""
             },
             "post_type": [
-                "treatment"
+                "page",
+                "skin-and-aesthetics",
+                "beauty-relaxation",
+                "body-treatments"
             ],
             "post_status": "",
             "taxonomy": "",
@@ -107,5 +110,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1725637589
+    "modified": 1726671449
 }
