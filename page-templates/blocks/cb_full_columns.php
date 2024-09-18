@@ -6,12 +6,12 @@ $contentBg = get_field('background') == 'cream' ? 'bg-white' : 'bg-cream';
 ?>
 <section class="full_columns <?=$bg?> py-5">
     <div class="container-fluid">
-        <div class="row g-4 align-items-center">
+        <div class="row g-4 align-items-start">
 <?php
 if( have_rows('columns') ):
     while( have_rows('columns') ) : the_row();
 ?>
-            <div class="col-sm">
+            <div class="col-md">
                 <?=get_sub_field('column')?>
             </div>
 <?php
