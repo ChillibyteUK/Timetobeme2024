@@ -49,7 +49,7 @@
     <div class="container-xl">
         <div class="row g-4">
             <div class="col">
-                <?php echo do_shortcode('[gravityform id=”1″ title=”false”]'); ?>
+                <?php echo do_shortcode('[gravityform id="1" title="true"]'); ?>
             </div>
         </div>
     </div>
