@@ -137,7 +137,7 @@ if (get_field('gtm_property', 'options')) {
             'theme_location'  => 'primary_nav',
             'container_class' => 'header_nav collapse navbar-collapse navbars',
             'container_id'    => 'primaryNav',
-            'menu_class'      => 'navbar-nav w-100 justify-content-center gap-lg-3 ps-lg-4 text-uppercase',
+            'menu_class'      => 'navbar-nav w-100 justify-content-center gap-lg-3 ps-lg-4 text-uppercase text-start',
             'menu_id'         => 'main-menu',
             'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
         )
