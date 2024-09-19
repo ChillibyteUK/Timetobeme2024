@@ -47,6 +47,32 @@
             "custom_choice_button_text": "Add new choice"
         },
         {
+            "key": "field_66ebe63c163ad",
+            "label": "Contained?",
+            "name": "contained",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Yes": "Yes"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "allow_in_bindings": 1,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
             "key": "field_66ea924484654",
             "label": "Columns",
             "name": "columns",
@@ -111,5 +137,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1726648956
+    "modified": 1726735960
 }

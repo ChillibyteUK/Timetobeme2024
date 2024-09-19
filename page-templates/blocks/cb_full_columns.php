@@ -1,11 +1,12 @@
 <?php
 $bg = isset(get_field('background')[0]) && get_field('background')[0] == 'Yes' ? 'bg-cream' : null;
+$contained = isset(get_field('contained')[0]) && get_field('contained')[0] == 'Yes' ? 'container-xl' : "container-fluid";
 
 $containerBg = get_field('background') == 'cream' ? 'bg-cream' : 'bg-white';
 $contentBg = get_field('background') == 'cream' ? 'bg-white' : 'bg-cream';
 ?>
 <section class="full_columns <?=$bg?> py-5">
-    <div class="container-fluid">
+    <div class="<?=$contained?>">
         <?php
         if ( get_field('title') ) {
         ?>
