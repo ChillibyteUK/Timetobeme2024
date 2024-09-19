@@ -7,7 +7,7 @@
         </div>
         <div class="row mb-5">
             <div class="col-12">
-                <a href="https://shop.phorest.com/businesses/9o9J5XNzIIFbrJk6RFndwQ/branches/4hHVO-wBm-YKh7SRboOMow/products" target="_blank" class="btn bg-white d-inline-block px-5 py-3 mb-2" style="--bs-bg-opacity: .8;">Shop Skincare</a>
+                <a href="http://shop.timetobeme.co.uk/" target="_blank" class="btn bg-white d-inline-block px-5 py-3 mb-2" style="--bs-bg-opacity: .8;">Shop Skincare</a>
             </div>
         </div>
     </div>
