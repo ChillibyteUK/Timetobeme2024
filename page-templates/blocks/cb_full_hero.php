@@ -24,7 +24,7 @@ $class = $block['className'] ?? null;
                 <div class="carousel-item <?=$active?>">
                     <div class="row">
                         <div class="full-hero__inner col-lg-8 p-5">
-                            <img src="/wp-content/uploads/2024/09/ttbm_logo_landscape_rgb_01.png" alt="Time to be Me" class="logo">
+                            <img src="/wp-content/uploads/2024/10/logo-slider.png" alt="Time to be Me" class="logo">
                             <h1 class="">
                                 <?=get_field('title')?>
                             </h1>
