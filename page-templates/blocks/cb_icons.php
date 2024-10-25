@@ -1,4 +1,4 @@
-<section class="icons py-5 bg-green text-white">
+<section class="icons py-5 bg-cream">
     <div class="container-xl">
         <div class="row mb-4">
             <div class="col-md-12 cols-lg-2">
