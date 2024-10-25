@@ -45,15 +45,6 @@
         </div>
     </div>
 </section>
-<section class="contact py-5">
-    <div class="container-xl">
-        <div class="row g-4">
-            <div class="col">
-                <?php echo do_shortcode('[gravityform id="1" title="true"]'); ?>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="contact py-5 pb-0">
     <div class="container-fluid p-0">
         <iframe class="d-block" src="<?=get_field('ho_map_url','options')?>" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
