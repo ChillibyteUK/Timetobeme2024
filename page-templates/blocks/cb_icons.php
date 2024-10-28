@@ -6,8 +6,8 @@
         while (have_rows('icons')) {
             the_row();
         ?>
-                <h2 style="break-after: avoid;"><?php echo get_sub_field('icon'); ?>&nbsp;<?php echo get_sub_field('title'); ?></h2>
-                <div class="mb-5"><?php echo get_sub_field('text'); ?></div>
+                <h2 class="mt-4" style="break-after: avoid;"><?php echo get_sub_field('icon'); ?>&nbsp;<?php echo get_sub_field('title'); ?></h2>
+                <div class="mb-0"><?php echo get_sub_field('text'); ?></div>
         <?php
         }
         ?>
