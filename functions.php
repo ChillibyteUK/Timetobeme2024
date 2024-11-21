@@ -67,3 +67,26 @@ function remove_draft_widget()
 {
     remove_meta_box('dashboard_quick_press', 'dashboard', 'side');
 }
+
+add_shortcode( 'drblock', 'drblock' );
+function drblock() {
+  ob_start();
+?>
+<div class="row">
+    <div class="col-12 col-md-8">
+        <?php echo get_field('drblock_text', 'options'); ?>
+    </div>
+    <div class="col-12 col-md-4">
+        <?php 
+        $image = get_field('drblock_image', 'options');
+        if( !empty( $image ) ):
+        ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
+        <?php
+        endif;
+        ?>
+    </div>
+</div>
+<?php
+return ob_get_clean();
+}
