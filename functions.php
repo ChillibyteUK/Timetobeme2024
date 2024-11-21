@@ -72,21 +72,25 @@ add_shortcode( 'drblock', 'drblock' );
 function drblock() {
   ob_start();
 ?>
-<div class="row">
-    <div class="col-12 col-md-8">
-        <?php echo get_field('drblock_text', 'options'); ?>
+<section class="drblock py-5 bg-dark-cream">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-12 col-md-8 bg-white p-5">
+                <?php echo get_field('drblock_text', 'options'); ?>
+            </div>
+            <div class="col-12 col-md-4">
+                <?php 
+                $image = get_field('drblock_image', 'options');
+                if( !empty( $image ) ):
+                ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
+                <?php
+                endif;
+                ?>
+            </div>
+        </div>
     </div>
-    <div class="col-12 col-md-4">
-        <?php 
-        $image = get_field('drblock_image', 'options');
-        if( !empty( $image ) ):
-        ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
-        <?php
-        endif;
-        ?>
-    </div>
-</div>
+</section>
 <?php
 return ob_get_clean();
 }
