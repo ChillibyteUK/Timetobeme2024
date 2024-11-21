@@ -1,8 +1,8 @@
-<section class="full-hero bg-green">
+<section class="full-hero bg-white">
     <div class="container-xl">
         <div class="row">
-            <div class="col-12 col-md-2"></div>
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-1"></div>
+            <div class="col-12 col-md-10">
                 <div id="carouselExampleCaptions" class="carousel slide mb-4 p-5" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                 <?php
@@ -28,9 +28,9 @@
                             <picture>
                                 <source srcset="<?php echo esc_url($image['url']); ?>" media="(min-width: 576px)" />
                                 <?php
-                                if ( get_sub_field('link') ) {
+                                if ( get_sub_field('url') ) {
                                 ?>
-                                <a href="<?=get_sub_field('link')?>"><img src="<?php echo esc_url($image['url']); ?>" class="d-block w-100" alt="<?php echo esc_attr($image['alt']); ?>"></a>
+                                <a href="<?=get_sub_field('url')?>"><img src="<?php echo esc_url($image['url']); ?>" class="d-block w-100" alt="<?php echo esc_attr($image['alt']); ?>"></a>
                                 <?php
                                 } else {
                                 ?>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-2"></div>
+            <div class="col-12 col-md-1"></div>
         </div>
     </div>
 </section>
