@@ -369,12 +369,21 @@ function acf_blocks()
             'supports' => array('mode' => false),
         ));
         acf_register_block_type(array(
-            'name'				=> 'cb_stat_spinner',
-            'title'				=> __('CB Stat Spinner'),
-            'category'			=> 'layout',
-            'icon'				=> 'cover-image',
-            'render_template'	=> 'page-templates/blocks/cb_spinner.php',
-            'mode'	=> 'edit',
+            'name'              => 'cb_stat_spinner',
+            'title'             => __('CB Stat Spinner'),
+            'category'          => 'layout',
+            'icon'              => 'cover-image',
+            'render_template'   => 'page-templates/blocks/cb_spinner.php',
+            'mode'  => 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'              => 'cb_slideshow',
+            'title'             => __('CB Slideshow'),
+            'category'          => 'layout',
+            'icon'              => 'cover-image',
+            'render_template'   => 'page-templates/blocks/cb_slideshow.php',
+            'mode'  => 'edit',
             'supports' => array('mode' => false),
         ));
     }
