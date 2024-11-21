@@ -75,7 +75,7 @@ function drblock() {
 ?>
 <section class="drblock py-5 bg-dark-cream">
     <div class="container-xl">
-        <div class="row">
+        <div class="row gx-0">
             <div class="col-12 col-md-8 bg-white p-5">
                 <?php echo get_field('drblock_text', 'options'); ?>
             </div>
