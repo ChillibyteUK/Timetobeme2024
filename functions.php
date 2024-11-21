@@ -71,6 +71,7 @@ function remove_draft_widget()
 add_shortcode( 'drblock', 'drblock' );
 function drblock() {
   ob_start();
+  $image = get_field('drblock_image', 'options');
 ?>
 <section class="drblock py-5 bg-dark-cream">
     <div class="container-xl">
@@ -78,15 +79,7 @@ function drblock() {
             <div class="col-12 col-md-8 bg-white p-5">
                 <?php echo get_field('drblock_text', 'options'); ?>
             </div>
-            <div class="col-12 col-md-4">
-                <?php 
-                $image = get_field('drblock_image', 'options');
-                if( !empty( $image ) ):
-                ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
-                <?php
-                endif;
-                ?>
+            <div class="col-12 col-md-4" style="background-image: url(<?php echo esc_url($image['url']); ?>); background-size: cover; background-position: center top; min-height: 400px;">
             </div>
         </div>
     </div>
