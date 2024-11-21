@@ -1,6 +1,6 @@
 <section class="full-hero bg-green">
     <div class="container-xl">
-        <div id="carouselExampleCaptions" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide mb-4 p-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
         <?php
         $counter = 0;
