@@ -31,6 +31,20 @@ defined('ABSPATH') || exit;
         href="<?=get_stylesheet_directory_uri()?>/fonts/montserrat-v26-latin-600.woff2"
         as="font" type="font/woff2" crossorigin="anonymous">
 
+    <?
+    if (!is_user_logged_in()) {
+    ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCSFRCTZ91"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FCSFRCTZ91');
+    </script>
+    <?
+    }
+    ?>
     <?php
     if (get_field('gtm_property', 'options')) {
         if (!is_user_logged_in()) {
@@ -109,20 +123,6 @@ if (get_field('gtm_property', 'options')) {
     <!-- End Google Tag Manager (noscript) -->
     <?php
     }
-}
-?>
-<?
-if (!is_user_logged_in()) {
-?>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FCSFRCTZ91"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-FCSFRCTZ91');
-</script>
-<?
 }
 ?>
     <header>
