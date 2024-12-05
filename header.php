@@ -111,6 +111,20 @@ if (get_field('gtm_property', 'options')) {
     }
 }
 ?>
+<?
+if (!is_user_logged_in()) {
+?>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FCSFRCTZ91"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FCSFRCTZ91');
+</script>
+<?
+}
+?>
     <header>
         <div class="container text-center py-2" id="topbar">
             <div class="row justify-content-md-center">
