@@ -1,6 +1,6 @@
 <?php
 $class = $block['className'] ?? null;
-$counter = 1;
+$h1counter = 1;
 ?>
 <section class="full-hero bg-green">
     <div class="container-xl position-relative">
@@ -27,7 +27,7 @@ $counter = 1;
                         <div class="full-hero__inner col-lg-8 p-5">
                             <img src="/wp-content/uploads/2024/10/logo-slider.png" alt="Time to be Me" class="logo">
                             <?php
-                            if ( $counter == 1 ) {
+                            if ( $h1counter == 1 ) {
                             ?>
                             <h1 class="">
                                 <?=get_field('title')?>
@@ -55,7 +55,7 @@ $counter = 1;
                     </div>
                 </div>
                 <?php
-        $counter++;
+        $h1counter++;
         $active = '';
     }
     ?>
