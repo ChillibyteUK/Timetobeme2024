@@ -1,5 +1,6 @@
 <?php
 $class = $block['className'] ?? null;
+$counter = 1;
 ?>
 <section class="full-hero bg-green">
     <div class="container-xl position-relative">
@@ -25,9 +26,21 @@ $class = $block['className'] ?? null;
                     <div class="row">
                         <div class="full-hero__inner col-lg-8 p-5">
                             <img src="/wp-content/uploads/2024/10/logo-slider.png" alt="Time to be Me" class="logo">
+                            <?php
+                            if ( $counter == 1 ) {
+                            ?>
                             <h1 class="">
                                 <?=get_field('title')?>
                             </h1>
+                            <?php
+                            } else {
+                            ?>
+                            <div class="h1">
+                                <?=get_field('title')?>
+                            </div>
+                            <?php
+                            }
+                            ?>
                             <?php
                                 if (get_field('content')) {
                                     ?>
@@ -42,6 +55,7 @@ $class = $block['className'] ?? null;
                     </div>
                 </div>
                 <?php
+        $counter++;
         $active = '';
     }
     ?>
