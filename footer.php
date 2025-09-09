@@ -55,7 +55,7 @@ defined('ABSPATH') || exit;
                 &copy; <?=date('Y')?> TIME to be ME All Rights Reserved
             </div>
             <div class="col-md-6 order-1 order-md-2 d-flex align-items-center justify-content-md-end flex-wrap gap-1">
-                <a href="/privacy-policy/">Privacy</a> &amp; <a href="/cookie-policy/">Cookie</a> Policy</a>
+                <a href="/terms-conditions/">Terms &amp; Conditions</a> | <a href="/privacy-policy/">Privacy</a> &amp; <a href="/cookie-policy/">Cookie</a> Policy</a>
             </div>
         </div>
     </div>
