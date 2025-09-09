@@ -14,18 +14,7 @@ defined('ABSPATH') || exit;
 <footer>
     <div class="container-xl pt-5">
         <div class="row g-4 pb-5">
-            <div class="col-md-5">
-                <div class="menu-title mb-3">Opening Hours:</div>
-                <div class="mb-4"><?=do_shortcode('[opening_hours]')?></div>
-                <div class="menu-title">Address:</div>
-                <div class="mb-4"><?=do_shortcode('[contact_address]')?></div>
-                <div class="menu-title">Phone:</div>
-                <div class="mb-4"><?=do_shortcode('[contact_phone]')?></div>
-                <div class="menu-title">Email:</div>
-                <div class="mb-4"><?=do_shortcode('[contact_email]')?></div>
-                <?=social_icons()?>
-            </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="row g-4 pb-5">
                     <div class="col-md-4">
                         <div class="menu-title mb-3 fw-bold">Treatments</div>
@@ -40,6 +29,23 @@ defined('ABSPATH') || exit;
                         <?php wp_nav_menu(array('theme_location' => 'footer_menu_3')); ?>
                     </div>
                 </div>
+            </div>
+			<div class="col-md-6">
+				<div class="row g-4">
+					<div class="col-md-6">
+						<div class="menu-title mb-3">Opening Hours:</div>
+						<div class="mb-4"><?=do_shortcode('[opening_hours]')?></div>
+					</div>
+					<div class="col-md-6">
+						<div class="menu-title">Address:</div>
+						<div class="mb-4"><?=do_shortcode('[contact_address]')?></div>
+						<div class="menu-title">Phone:</div>
+						<div class="mb-4"><?=do_shortcode('[contact_phone]')?></div>
+						<div class="menu-title">Email:</div>
+						<div class="mb-4"><?=do_shortcode('[contact_email]')?></div>
+						<?=social_icons()?>
+					</div>
+				</div>
             </div>
         </div>
     </div>
